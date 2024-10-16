@@ -1,57 +1,59 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
-:root{
-    --bg-color: #588683;
-    --primary-color: #045a5a;
-    --seconday-color: #230de9;
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+:root {
+    --bg-color: #0b414b;
+    --primary-color: #87b0b6;
+    --secondary-color: #F05454;
     --font: "Nunito Sans", sans-serif;
 }
 
-body{
+body {
     background-color: var(--bg-color);
     color: var(--primary-color);
-    font-family: 100vh0;
+    font-family: var(--font);
+    height: 100vh;
     margin: 0;
 }
 
-header{
+header {
     background-color: var(--primary-color);
     text-align: center;
     padding: 1px;
 }
 
-h1{
+h1 {
     font-size: 2rem;
     color: var(--bg-color);
-    font-weight: 400;
+    font-weight: 700;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: center;
     font-weight: 400;
 }
 
-nav a{
+nav a {
     text-decoration: none;
     color: var(--bg-color);
     margin: 0 2rem 1rem 0rem;
     font-size: 1.2rem;
 }
 
-nav a:hover{
+nav a:hover {
     text-decoration: underline;
     transform: scale(0.90);
     transition: transform 0.1s;
-}
-.grafico{
-    grafico {
-        margin-top: 3rem;
-    }
 }
 
 .graficos-container {
     margin: 5rem;
 }
+
+.grafico {
+    margin-top: 3rem;
+}
+
 .graficos-container__texto {
     font-size: 1.3rem;
     text-align: center;
@@ -62,12 +64,6 @@ nav a:hover{
 span {
     font-weight: bold;
     color: var(--secondary-color);
-}
-
-footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 footer {
